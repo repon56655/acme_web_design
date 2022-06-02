@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 
 }
@@ -129,24 +130,31 @@ body{
 }
 .box-1 img{
     width: 90px;
+    margin-bottom: 25px;
 }
 .box-2 img{
     width: 90px;
+    margin-bottom: 25px;
 }
 .box-3 img{
     width: 90px;
+    margin-bottom: 25px;
 }
+.box-1 h3, .box-2 h3, .box-3 h3{
+    margin-bottom: 10px;
+} 
 
 .footer{
     background-color: #e8491d;
     width: 100%;
     min-height: 50px;
-    padding-top: 35px;
+ 
     
 
 }
 .footer p {
     text-align: center;
+    padding-top: 20px;
     
 
 }
