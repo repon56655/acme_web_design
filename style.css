@@ -100,7 +100,18 @@ body{
     padding-right: 20px;
     height: 38px;
     color: white;
+    display: block;
 }
 .footer{
     background-color: #e8491d;
+    width: 100%;
+    min-height: 50px;
+    padding-top: 35px;
+    
+
+}
+.footer p {
+    text-align: center;
+    
+
 }
