@@ -72,3 +72,46 @@ body{
 .content p {
     font-size: 20px;
 }
+.subscribe{
+    background-color: #35424a;
+
+}
+.subscribe::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.left{
+    padding: 20px;
+    float: left;
+}
+.right{
+    padding: 20px;
+    float: right;
+}
+.right input[type="text"]{
+    height: 25px;
+    padding: 4px;
+  
+}
+.right input[type="submit"]{
+    background-color: #e8491d;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 38px;
+    color: white;
+    display: block;
+}
+.footer{
+    background-color: #e8491d;
+    width: 100%;
+    min-height: 50px;
+    padding-top: 35px;
+    
+
+}
+.footer p {
+    text-align: center;
+    
+
+}
